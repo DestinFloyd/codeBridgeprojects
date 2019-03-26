@@ -1,0 +1,1618 @@
+
+.container1{
+    height: 100vh;
+    width: 100vw;  
+
+}
+
+.main1{
+    border: solid Red;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.buttonHolder{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+}
+.buttonHolderChild{
+    padding-top: 5%;
+    padding-right: 10%;
+}
+.playtime{
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+    align-self: flex-end;
+    background: radial-gradient(red, darkred);
+    
+}
+.playtime:focus {
+    outline:0;
+} 
+#link1{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.flags{
+    border: solid red;
+position: absolute;
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+}
+.sixFlags{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.overGeorgia{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9;
+    
+}
+.flagsChild{
+    height: 100vh;
+    width: 100vw;
+background-image: url("/images/flags.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+position: relative;
+z-index: 3;
+
+/* transform: scaleY(1); */
+}
+.sixFlagsChild{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/images/sixflagsSymbol.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 4;
+    
+}
+.overGeorgiaChild{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/images/overGA.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 5;
+   
+}
+
+.sixFlagsChild{
+    animation: moveIn 4s;
+}
+
+.flagsChild{
+    animation: moveIn2 4s;
+}
+.overGeorgia{
+    animation: moveIn3 4s;
+}
+.playtime:hover{
+    background: radial-gradient(green, lightgreen);
+   
+}
+.playtime:hover
+#link1{
+    font-size: x-large;  
+}
+
+@keyframes moveIn{
+    0%{
+        transform: translate(100vh);
+    }
+}
+@keyframes moveIn2{
+    0%{ 
+        transform: translate(150vh);
+    }
+    25%{
+        transform: translate(150vh);
+    }
+    75%{ 
+        transform: scaleY(2);
+    }
+}
+@keyframes moveIn3{
+    0%{
+        transform: translate(150vh);
+    }
+    25%{
+        
+    }
+    50%{
+        transform: translate(100vh);
+    }
+    
+}
+
+
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 2============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+.conatiner2{
+    height: 125vh;
+    width: 100vw;  
+
+}
+.linksNav{
+    text-decoration: none;
+    color: black;
+    font-family: 'Acme', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 100vw;
+    position: relative; 
+    z-index: 10;
+}
+.navTop{
+    
+    height: 15vh;
+    position: relative; 
+    z-index: 10;
+    background-image: url("/images/flagsSmall.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-right: 5%;
+   overflow: hidden;
+   font-family: 'Bangers', cursive;
+
+}
+#SFOG{
+    font-size: 4em;
+    margin-top: 0;
+   
+}
+#SFOG:hover{
+    animation: colors2 4s infinite;}
+@keyframes colors2{
+    0%{
+      
+        text-shadow: 5px 5px red;
+        
+    }
+    25% {
+        text-shadow: 5px 5px blue;
+    }
+    50%{
+        text-shadow: 5px 5px  yellow;
+    }
+    75%{
+        text-shadow: 5px 5px  chartreuse;
+    }
+    100%{
+        text-shadow: 5px 5px rgb(239, 87, 32);
+    }
+}
+.navBottom{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    z-index: 10;
+    
+}
+.navLeft{
+    width: 25vw;
+    position: relative; 
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.navRight{
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    position: relative; 
+    z-index: 10;
+    text-align: center;
+
+}
+.navList{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    list-style: none;
+    position: relative; 
+    z-index: 10;
+    flex-wrap: nowrap;
+    padding: 0;
+
+    
+}
+.navList:hover{
+background: red;
+padding: 2%;
+position: relative; 
+z-index: 10;
+border-radius: 50%;
+}
+
+.main2{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+
+}
+.top2{
+
+height: 50vh;
+width: 100vw;
+display: flex;
+flex-direction: row;
+
+}
+.topRight2{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topLeft2{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.allSlides{
+  
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+    font-size: 3em;
+
+}
+#navItem:hover{
+background: blue;
+}
+.ridesBox{
+  
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ridesButton{
+    height: 20%;
+    width: 10%;
+border-radius: 50%;
+background-color: chartreuse;
+}
+.ridesButton:hover{
+    background:blue;
+}
+#ridesImage{
+    height: 100%;
+    width: 90%;
+background-image: url("/images/Acrophobia.jpg");
+background: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-position-y: center;
+
+}
+#showImage{
+    height: 100%;
+    width: 90%;
+    background-image: url("/images/looneyTune.jpg");
+background: contain;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center; 
+}
+#diningImage{
+    height: 100%;
+    width: 90%;
+    background-image: url("/images/machoNacho.png");
+background: contain;
+background-repeat: no-repeat;  
+background-position: center;
+background-position-y: center;  
+
+}
+#shoppingImage{
+    height: 100%;
+    width: 90%;
+    background-image: url("/images/store3.png");
+background: contain;
+background-repeat: no-repeat;  
+background-position: center;
+background-position-y: center;
+
+
+}
+.bottom2{
+  
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.bottomRight2{
+   
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottomLeft2{
+  
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box2{
+    text-align: center;
+    
+}
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 3============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container3{
+    height: 175vh;
+    width: 100vw;
+}
+.main3{
+border: solid red;
+height: 150vh;
+width: 100vw;
+position: absolute;
+display: grid;
+grid-template-columns: repeat(50, 1fr);
+grid-template-rows: repeat(50, 1fr);
+font-family: 'Acme', sans-serif;
+
+}
+
+#map{
+    height: 150vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+
+}
+.acro{
+    position: relative;
+    z-index: 3;
+    grid-area: 34/ 42 / 35/ 43;
+    background-color: yellow;
+    border-radius: 50%;
+    transition: display 5s, height 5s, width 5s;
+    transition-timing-function: ease-in-out;
+    
+}
+.rollerInfo{
+    list-style: none;
+}
+.info3{
+    display: none;
+    height: 55%;
+    width: 55%;
+
+}
+.acro:hover .info31{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 25%;
+   width: 25%;
+
+ 
+}
+.batman{
+    position: relative;
+    z-index: 3;
+    grid-area: 40/ 5 / 41/ 6;
+    background-color: red;
+    border-radius: 50%
+}
+.batman:hover .info32{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.blueHawk{
+    position: relative;
+    z-index: 3;
+    grid-area: 17/ 23 / 18/ 24;
+    background-color: red;
+    border-radius: 50%;
+}
+.blueHawk:hover .info33{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.dahlo{
+    position: relative;
+    z-index: 3;
+    grid-area: 36/ 40 / 37/ 41;
+    background-color: red;
+    border-radius: 50%;
+}
+.dahlo:hover .info34{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.dare{
+    position: relative;
+    z-index: 3;
+    grid-area: 42/ 23 / 43/ 24;
+    background-color: red;
+    border-radius: 50%;
+}
+.dare:hover .info35{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.georgia{
+    position: relative;
+    z-index: 3;
+    grid-area: 44/ 33 / 45/ 34;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+.georgia:hover .info36{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.goliath{
+    position: relative;
+    z-index: 3;
+    grid-area: 38/ 28 / 39/ 29;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.goliath:hover .info37{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.scream{
+    position: relative;
+    z-index: 3;
+    grid-area: 20/ 35 / 21/ 36;
+    background-color: red;
+    border-radius: 50%;
+}
+.scream:hover .info38{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.jl{
+    position: relative;
+    z-index: 3;
+    grid-area: 18/ 39 / 19/ 40;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+.jl:hover .info39{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.mind{
+    position: relative;
+    z-index: 3;
+    grid-area: 43/ 11 / 44/ 12;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.mind:hover .info310{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.pand{
+    position: relative;
+    z-index: 3;
+    grid-area: 7/ 7 / 8/ 8;
+    background-color: red;
+    border-radius: 50%;
+}
+.pand:hover .info311{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 55%;
+    width: 55%;
+}
+.skySc{
+    position: relative;
+    z-index: 3;
+    grid-area: 19/ 20 / 20/ 21;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+.skySc:hover .info313{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.skyC{
+    position: relative;
+    z-index: 3;
+    grid-area: 14/30 / 15/ 31;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.skyC:hover .info312{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.super{
+    position: relative;
+    z-index: 3;
+    grid-area: 12/ 40/ 13/ 41;
+    background-color: red;
+    border-radius: 50%;
+}
+.super:hover .info314{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+.cyclone{
+    position: relative;
+    z-index: 3;
+    grid-area: 9/28 / 10/ 29;
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+.cyclone:hover .info315{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 4============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container4{
+    width: 100vw;
+    height: 175vh;
+    font-family: 'Acme', sans-serif;
+
+}
+.main4{
+    width: 100vw;
+    height: 150vh;
+    display: flex; 
+    flex-direction: row;
+}
+.main4A{
+   
+    height: 100%;
+    width: 10%;
+    display: flex; 
+}
+.main4B{
+
+    height: 100%;
+    width: 80%;
+    display: flex; 
+    flex-direction: column;
+}
+.main4C{
+
+    height: 100%;
+    width: 10%;
+    display: flex; 
+}
+.showName{
+    text-decoration: underline;
+
+}
+.show1:hover{
+   background: linear-gradient( to top, red 0%, white 100%);
+}
+.show2:hover{
+    background: linear-gradient( to top, red 0%, white 100%);
+}
+.show3:hover{
+    background: linear-gradient( to top, red 0%, white 100%);
+}
+.show4:hover{
+    background: linear-gradient( to top, red 0%, white 100%);
+}
+.show5:hover{
+    background: linear-gradient( to top, red 0%, white 100%);
+}
+.show6:hover{
+    background: linear-gradient( to top, red 0%, white 100%);
+}
+.preShow{
+   
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+.preshowA{
+   
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    
+}
+.preshowB{
+   
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    
+    background-image: url("/images/action.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 5============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container5{
+    height: 275vh;
+    width: 100vw;
+    font-family: 'Acme', sans-serif;
+}
+.main5{
+    height: 250vh;
+    width: 100vw;
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    background-image: url("images/picnic2.jpeg");
+    background-size: cover;
+
+}
+
+.a5{
+border: solid red;
+height: 250vh;
+width: 20vw;
+}
+.b5{
+background: white;
+height: 250vh;
+width: 60vw;
+display: flex;
+flex-direction: column;
+
+}
+.c5{
+border: solid green;
+height: 250vh;
+width: 20vw;
+}
+.resturant{
+    border: solid red;
+    margin: 3%;
+    display: flex; 
+    flex-direction: row;
+
+}
+.icon5{border: solid blue;
+    width: 25%;
+    transition: all 2s ease;
+
+
+}
+.text5{
+
+width: 75%;
+display: flex;
+flex-direction: column;
+overflow: scroll;
+
+}
+.extraHolder{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%; 
+    height: 20%;
+  
+}
+.extraHolderA{
+    width: 100%; 
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+  
+}
+.extraHolderB{
+    display: flex;
+    flex-direction:row;
+    border: solid purple;
+    flex-wrap: nowrap;  
+    width: 100%; 
+height: 60%;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+
+}
+.extraFood{
+    width: 25%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+/* most of resturant wording courtesy of SFOG  */
+/* image by courtesy of Noun Project  */
+.icon51{
+background-image: url("/images/snack.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of Noun Project  */
+.icon52{
+    background-image: url("/images/bbq.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+/* image by courtesy of Flaticon  */
+.icon53{
+    background-image: url("/images/chicken.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+/* image by courtesy of Icon Shop  */
+.icon54{
+    background-image: url("/images/hotdog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+/* image by courtesy of melbournechapter.net */
+.icon55{
+    background-image: url("/images/turkey.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of iconFinder */
+.icon56{
+    background-image: url("/images/dining.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of KissPNG */
+.icon57{
+    background-image: url("/images/burger.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of AppBits*/
+.icon58{
+    background-image: url("/images/samwich.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of IconFinder */
+.icon59{
+    background-image: url("/images/snack2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of oNline Web Fonts */
+.icon510{
+    background-image: url("/images/chicken.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center; 
+}
+/* image by courtesy of flaticon.es */
+.icon511{
+    background-image: url("/images/nachos2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of flaticon.es */
+.extra1{
+    background-image: url("/images/lemonade.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of mbtskoudsalg */
+.extra2{
+    background-image: url("/images/funnel2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of oNline Web Fonts */
+.extra3{
+    background-image: url("/images/soda2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+/* image by courtesy of flaticon.es */
+.extra4{
+    background-image: url("/images/icecream.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+background-position-y: center;
+}
+.text5:hover{
+animation: colors 5s infinite;
+}
+@keyframes colors{
+    0%{
+        background-color: red;
+        text-shadow: 1px 1px white;
+        font-weight: bolder;
+    }
+    25% {
+        background: yellow;
+        text-shadow: 1px 1px white;
+        font-weight: bolder;
+    }
+    50%{
+        background: rgb(39, 39, 244);
+        text-shadow: 1px 1px white;
+        font-weight: bolder;
+    }
+    75%{
+        background: chartreuse;
+        text-shadow: 1px 1px white;
+        font-weight: bolder;
+    }
+    100%{
+        background: purple;
+        text-shadow: 1px 1px white;
+        font-weight: bolder; 
+    }
+}
+
+.icon5:hover{
+transform: scale(1.5);
+}
+.extraFood:hover{
+    transform: scale(1.5);
+}
+
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 6============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+
+.container6{
+   
+    height: 175vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+}
+.main6{
+    display: flex;
+    flex-direction: row; 
+    height: 150vh;
+    width: 100vw;
+    background-image: url("images/sixStore.jpg");
+    background-size: cover;
+}
+.a6{
+   
+    height: 100%;
+    width: 25%;
+}
+.b6{
+    border: solid orange;
+    background: white;
+    height: 100%;
+    width: 50%;
+}
+.c6{
+   
+    height: 100%;
+    width: 25%;
+
+}
+.shop6:hover{
+    background: linear-gradient( to top, blue 0%, white 100%);  
+}
+
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 7============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container7{
+    height: 125vh;
+    width: 100vw;
+    font-family: 'Acme', sans-serif;
+}
+.main7{
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    flex-direction: row;
+    background-image: url("/images/rollarCoasterSFOG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main7A{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main7B{
+    overflow: scroll;
+    width: 60vw;
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main7B:hover{
+    transition: 1s ease-in;
+    background: white;
+    display: flex;
+   text-align: center;
+}
+.main7C{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.bubble71{
+    height: 15vh;
+    width: 15vw;
+    background: rgb(239, 87, 32);
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25%;
+    font-weight: bold;
+    overflow: scroll;
+    
+}
+.bubble71:hover{
+    box-shadow: 2px 2px black;
+}
+.modalBox{
+    position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+z-index: 99;
+opacity: 0;
+transition: opacity 1s ease-in;
+pointer-events: none;
+display: block;
+
+
+}
+
+.Qmark{
+    text-decoration: none;
+   font-size: 2em;
+    color: white;
+}
+.modalBox:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalBox > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(white, gray);
+
+}
+.close{
+    background: gray;
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    line-height: 25px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+}
+.close:hover{
+    background: blue;
+}
+.bubble72{
+    height: 15vh;
+    width: 15vw;
+    background: rgb(239, 87, 32);
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25%;
+    font-weight: bold;
+    overflow: scroll;
+    
+}
+.bubble72:hover{
+    box-shadow: 2px 2px black;
+}
+.modalBox2{
+    position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+z-index: 99;
+opacity: 0;
+transition: opacity 1s ease-in;
+pointer-events: none;
+display: block;
+
+
+}
+.Qmark2{
+    text-decoration: none;
+   font-size: 2em;
+    color: white;
+}
+.modalBox2:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalBox2 > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(white, gray);
+
+}
+.close2{
+    background: gray;
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    line-height: 25px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+}
+.close2:hover{
+    background: blue;
+}
+.bubble73{
+    height: 15vh;
+    width: 15vw;
+}
+
+.bubble74{
+    height: 15vh;
+    width: 15vw;
+    background: rgb(239, 87, 32);
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25%;
+    font-weight: bold;
+    overflow: scroll;
+    
+}
+.bubble74:hover{
+    box-shadow: 2px 2px black;
+}
+.modalBox4{
+    position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+z-index: 99;
+opacity: 0;
+transition: opacity 1s ease-in;
+pointer-events: none;
+display: block;
+
+
+}
+.Qmark4{
+    text-decoration: none;
+   font-size: 2em;
+    color: white;
+}
+.modalBox4:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalBox4 > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(white, gray);
+
+}
+.close4{
+    background: gray;
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    line-height: 25px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+}
+.close4:hover{
+    background: blue;
+}
+
+/* =============== */
+.bubble75{
+    height: 15vh;
+    width: 15vw;
+    background: rgb(239, 87, 32);
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25%;
+    font-weight: bold;
+    overflow: scroll;
+    
+}
+.bubble75:hover{
+    box-shadow: 2px 2px black;
+}
+.modalBox5{
+    position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.8);
+z-index: 99;
+opacity: 0;
+transition: opacity 1s ease-in;
+pointer-events: none;
+display: block;
+
+
+}
+.Qmark5{
+    text-decoration: none;
+   font-size: 2em;
+    color: white;
+}
+.modalBox5:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalBox5 > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(white, gray);
+
+}
+.close5{
+    background: gray;
+    color: white;
+    text-shadow: 2px 2px black;
+    display: flex;
+    line-height: 25px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+}
+.close5:hover{
+    background: blue;
+}
+.bubble76{
+        height: 15vh;
+        width: 15vw;
+}
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 8============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container8{
+    height: 125vh;
+    width: 100vw;
+    font-family: 'Acme', sans-serif;
+}
+.main8{ 
+    /* border: solid black; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.main8A{
+width: 100%;
+height: 25%;
+display: flex;
+}
+.main8B{
+    width: 100%;
+    height: 25%; 
+    display: flex;
+}
+.main8C{
+    width: 100%;
+    height: 25%; 
+    display: flex;
+}
+.main8D{
+    width: 100%;
+    height: 25%; 
+    display: flex;
+}
+.text8{
+    height: 75%; 
+    width: 75%;
+    overflow: scroll;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+
+.icon8A{
+    /* border: solid black; */
+    height: 100%; 
+    width: 20vw;
+    min-width: 20vw;
+    background-image: url("images/ticketColor2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon8B{
+    /* border: solid black; */
+    height: 100%; 
+    width: 20vw;
+    min-width: 20vw;
+    background-image: url("images/passColor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon8C{
+    /* border: solid black; */
+    height: 100%; 
+    width: 20vw;
+    min-width: 20vw;
+    background-image: url("images/specials.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon8D{
+    /* border: solid black; */
+    height: 100%; 
+    width: 20vw;
+    min-width: 20vw;
+    background-image: url("images/gate.png");
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+.text8:hover{
+    background: linear-gradient( to top, yellow 0%, white 100%);  
+}
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =================Start page 10============================== */
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+.container10{
+    height: 125vh;
+    width: 100vw;
+    /* font-family: 'Acme', sans-serif; */
+}
+.main10{
+    height: 100h;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.mainTop{
+    display: flex; 
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+.mainBottom{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 25vw;
+
+}
+.mainBottomA{
+    display: flex; 
+    flex-direction: column;
+
+}
+.icon101{
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 60vw; */
+
+}
+.mainLeft{
+    width: 50%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+  /* padding: 0;
+  margin: 0; */
+
+}
+.text10{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a10{
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainRight{
+    width: 50%;
+    overflow: hidden;
+}
+.text10:hover{
+    background: linear-gradient( to top, blue 0%, white 100%);
+}
+.icon1011:hover{
+    box-shadow: 10px 10px blue;
+}

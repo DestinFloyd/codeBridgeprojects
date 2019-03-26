@@ -1,0 +1,107 @@
+.container{
+    border: solid green;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgreen;
+;
+}
+.layout1{
+    border: solid green;
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+
+    
+}
+.layout2{
+    border: solid green;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.box1{
+    border: solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;    
+}
+.box2{
+    border: solid green;
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.box3{
+    border: solid green;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.onea{
+    height: 100%;; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#display{
+    height: 75%;
+    width: 75%;
+}
+.twoa{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.twob{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.twoc{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.twod{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.threea{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    height: 50%;
+    width: 50%;
+    margin: 5%;
+    border-radius: 50%;
+    background-image: url(images/trees.jpeg);
+    background-size: 100% 100%;
+    /* text-size-adjust: 4em; */
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px black;
+}
+
+.equB{
+    height: 50%;
+    width: 50%;
+}
+

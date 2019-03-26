@@ -1,0 +1,739 @@
+
+body{
+    height: 150vh;
+    width: 100vw;
+}
+.container{
+background: url(images/mountians.jpeg);
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(24, 1fr);
+grid-template-rows: repeat(25, 1fr);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#h1{
+    grid-area: 1 / 1 / 4 / 10;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    text-align:  center; 
+    font-family: 'Anton', sans-serif;
+    color: purple;
+    font-size: 2em;
+    
+}
+#h2{margin: 0;
+    grid-area: 3 / 2 / 5 / 24;
+    position: relative;
+    z-index: 3;
+    font-family: 'Anton', sans-serif;
+    text-align:  center; 
+    color: purple;
+    font-size: 4em;
+}
+.book{
+    grid-area: 5 / 8 / 24 / 20;
+    width: 100%;
+    background-image: url('images/TOG.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+/*   NAV IS NAV BAR WHOLE. NAV HOLDS # ONE - # FOUR====== */
+.nav{
+    background: linear-gradient(to right, #333300 0%, #666699 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    z-index: 5;
+    
+}
+.linkz{
+    color:white;
+}
+
+
+#one{
+    
+    grid-area: 1 / 12 / 3 / 15;
+    
+}
+
+#two{
+   
+    grid-area: 1 / 15 / 3 / 18;
+    
+}
+
+#three{
+    
+    grid-area: 1 / 18 / 3 / 21;
+    
+}
+
+#four{
+    
+    grid-area: 1 / 21 / 3 / 24;
+}
+
+.publish{
+    background-color: silver;
+    grid-area: 12 / 2 / 14 / 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.about{
+    background-color: silver;
+    grid-area: 14 / 1 / 26 / 9;
+    z-index: 2;
+    font-family: 'Goudy Bookletter 1911', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-size: 2em;
+    
+}
+/*  LINK TO BUY IT======== ADVERTIZING PROMPT */
+.bubble{
+    background: rgb(58, 27, 58);
+    grid-area: 15 / 18 / 22 / 23;
+    position: relative;
+    z-index: 2;
+    border-radius: 60%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 2em;
+
+
+}
+.link1{
+    color: white;
+    text-shadow: 4px 4px blue;
+}
+/*  ============================================= */
+/*  ============================================= */
+/*  ============================================= */
+/*  =====start page 2 designs================================================================== */
+/*  ============================================= */
+/*  ============================================= */
+/*  ============================================= */
+
+body{
+    height: 150vh;
+    width: 100vw;
+}
+.containerPage2{
+    background-color: rgb(58, 27, 58);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    }
+
+#one{
+    border: solid rgb(58, 27, 58);
+    grid-area: 1 / 12 / 3 / 15;
+    
+}
+
+#two{
+    border: solid rgb(58, 27, 58);
+    grid-area: 1 / 15 / 3 / 18;
+}
+
+#three{
+    border: solid rgb(58, 27, 58);
+    grid-area: 1 / 18 / 3 / 21;
+    
+}
+
+#four{
+    border: solid rgb(58, 27, 58);
+    grid-area: 1 / 21 / 3 / 24;
+}
+.greet{ background-color: rgb(58, 27, 58);
+    grid-area: 1/ 1 / 3 /12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 3em;
+    font-weight: bolder;
+    position: relative; 
+    z-index: 2;
+}
+.gre{
+    color: lightgray;
+    
+}
+.characterBox{
+    border: solid rgb(58, 27, 58);
+    grid-area: 3 / 1/ 26 / 25;
+    display: flex;
+}
+.characterFlex{ 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+/*  PUTTING THEM IN 3 LAYERS SO WE CAN FLEX ON WAY THEN ANOTHER AND STAY SYMETRICAL EASIER */
+.Layer1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Layer2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.Layer3{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-content: center;
+
+}
+.character{
+border: solid rgb(58, 27, 58);
+margin: 0 auto;
+display: flex;
+width: 100%;
+height:100%;
+flex-direction: column;
+}
+.CI{
+    display: flex;
+    flex-grow: 8;
+    align-self: center;
+    justify-content: center;
+}
+.name{border: rgb(58, 27, 58);;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(58, 27, 58);
+    text-align: center;
+    color: lightgray;
+    font-family: 'Goudy Bookletter 1911', serif;
+    flex-direction: column;
+    height: 10%;
+}
+ul {
+    list-style-type: none;
+  }
+  /*  CHARACTER ID =========== */
+.CID{
+    color: rgb(58, 27, 58);
+    font-weight: bolder;
+}
+.oneC{ background-image: url(images/Dorian.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.twoC{
+    background-image: url(images/Celaena-2.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.threeC{
+    background-image: url(images/Chaol.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourC{
+    background-image: url(images/Nehemia.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fiveC{
+    background-image: url(images/King.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixC{
+    background-image: url(images/Lysandra.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sevenC{
+    background-image: url(images/Cain.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eightC{
+    background-image: url(images/Queen.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nineC{
+    background-image: url(images/More.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.name:hover{
+    background-color: gray;
+}
+
+
+/* =====================================================================================
+ ======================================================================================= 
+ =======================================================================================
+ =========================Start of page 3 style=========================================
+ =======================================================================================
+ =======================================================================================
+ ======================================================================================= */
+
+
+ body{
+    height: 150vh;
+    width: 100vw;
+}
+ 
+.container3{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(25, 1fr);
+        background-image: url(/images/bookcase.jpeg);
+        background-size: cover;
+        }
+
+        #one{
+            
+            grid-area: 1 / 12 / 3 / 15;
+            
+        }
+        
+        #two{
+            
+            grid-area: 1 / 15 / 3 / 18;
+        }
+        
+        #three{
+            
+            grid-area: 1 / 18 / 3 / 21;
+            
+        }
+        
+        #four{
+            
+            grid-area: 1 / 21 / 3 / 24;
+        }
+
+    .intro{
+        
+        grid-area: 1 / 1 / 7 / 10;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        color: white;
+        text-shadow: 2px 2px black;
+        
+    }
+
+ .bottom{
+     
+    grid-area: 18 /1 / 26/ 25;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+ }
+
+
+ .middle{
+   
+     grid-area: 6/ 1 / 18/ 25;
+     display: flex;
+     flex-direction: row;
+     height: 100%;
+     flex-wrap: nowrap;
+
+
+
+ }
+ /*  PRAISE / REVIEWS ON THE LEFT. TWO KEYFRAMES TO ROTATE THEM */
+.praise{
+display: flex;
+flex-direction: column;
+min-width: 25%;
+max-width: 25%;
+background-color: rgba(128, 128, 128, 0.75);
+
+}
+.praiseLayer{
+    
+    height: 100%;
+    width: 100%;
+
+}
+.PL1{
+    animation: swap 10s; 
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes swap{
+25%{ background: url(images/praise1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+60%{
+    background: url(images/praise2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+100%{
+    background: url(images/praise3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+}
+.PL2{
+    animation: swap2 10s; 
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    
+}
+@keyframes swap2{
+    25%{ background: url(images/praise4.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    60%{
+        background: url(images/praise5.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    100%{
+        background: url(images/praise6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    }
+/*  MIDDLE VIDEO  */
+.video{
+    
+flex-grow: 2;
+display: flex;
+min-width: 50%;
+max-width: 50%;
+align-items: center;
+justify-content: center;
+
+}
+
+/*  ABOUT THE AUTHOR FAR RIGHT */
+.aboutS{
+
+min-width: 25%;
+max-width: 25%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(128, 128, 128, 0.75);
+
+}
+.parag{
+    padding: 15%;
+}
+
+.bookL{
+    display: flex;
+    font-size: 2em;
+    width: 100%;
+    height: 50%;
+    
+    
+}
+/*  LINKS ON THE BOOKS */
+.numbers{
+    color:red;
+    text-shadow: 2px 3px black;
+}
+/* ALL THE BOOKS ON THE BOTTOM */
+.B0{
+    background-image: url(/images/TAB.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+.B2{
+    background-image: url(/images/COM.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.B3{
+    background-image: url(/images/HOF.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.B4{
+    background-image: url(/images/QOS.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.B5{
+    background-image: url(/images/EOS.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.B6{
+    background-image: url(/images/TOD.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.B7{
+    background-image: url(/images/KOA.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ==============start Page 4========================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+
+body{
+    height: 150vh;
+    width: 100vw;
+}
+ 
+.container4{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(25, 1fr);
+        background:  linear-gradient(to top,  #663300   0%,#cc9900 100%);
+
+
+        }
+
+        #one{
+            
+            grid-area: 1 / 12 / 3 / 15;
+            
+        }
+        
+        #two{
+            
+            grid-area: 1 / 15 / 3 / 18;
+        }
+        
+        #three{
+            
+            grid-area: 1 / 18 / 3 / 21;
+            
+        }
+        
+        #four{
+            
+            grid-area: 1 / 21 / 3 / 24;
+        }
+        .container4Layer1{
+            grid-area: 2 / 2 / 25 / 24;
+            background-image: url("images/map.jpg"); 
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+           
+
+        }
+        .moreInfo{
+            grid-area: 6/ 6/ 18 / 19;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-family: 'Goudy Bookletter 1911', serif;
+            
+        }
+.bubble4{
+    border: solid black;
+    grid-area: 16 / 17 / 21 / 22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-color:green;
+    border-radius: 75%;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+}
+/* =====================modle 1====================== */
+.modalDialog{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: block;
+}
+.modalDialog:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    grid-area: 3 / 3 / 10 / 10;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(#fff, #999);
+
+}
+.close{
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover{
+    background: #00d9ff;
+}
+/* =====================modle 1====================== */
+/* =====================modle 2====================== */
+.modalDialogTWO{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: block;
+}
+.modalDialogTWO:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialogTWO > div {
+    width: 400px;
+    position: relative;
+    grid-area: 3 / 3 / 10 / 10;
+    margin: 10% auto;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -o-linear-gradient(#fff, #999);
+
+}
+.closeTWO{
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px #000;
+}
+.closeTWO:hover{
+    background: #00d9ff;
+}
+
+
+/* =====================modle 2====================== */
+.yn{
+    color: black;
+    
+}
+/* 
+    FOR EASIER VISIBLITY READING
+
+} */
+.moreInfo:hover{
+    background-color: rgba(255, 255, 0, 0.55);
+}
+
+/*  NAV BAR HOVER  */
+#one:hover{
+    background: #606061;
+}
+#two:hover{
+    background: #606061;
+}
+#three:hover{
+    background: #606061;
+}
+#four:hover{
+    background: #606061;
+}

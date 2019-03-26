@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Alarm Clock Ever</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="MyAlarmClock"> </div>
+
+<div class="setIt">
+
+<div class="topper"> Thanks for choosing the best alarm clock! Sweet Dreams!</div>
+
+
+
+
+    <button class="buttons" onclick="hours(+1)" value ="0" id="hoursButtonA"> H.up</button>
+    <div id="hourValue" class="values"> 0</div>
+    <button class="buttons" onclick="hours(-1)" value ="0" id="hoursButtonB"> H.down </button>
+
+    <button class="buttons" onclick="minutes(+1)" value ="0" id="minutesButtonA"> M.up</button>
+    <div id="minuteValue" class="values"> 0</div>
+    <button class="buttons" onclick="minutes(-1)" value ="0" id="minutesButtonB"> M.down </button>
+
+
+    <button class="buttons" onclick="seconds(+1)" value ="0" id="secondsButtonA"> S.up</button>
+    <div id="secondValue" class="values"> 0</div>
+    <button class="buttons" onclick="seconds(-1)" value ="0" id="secondsButtonB"> Sdown </button>
+
+    <button class="buttons" onclick="sessionsA(+1)" value ="0" id="sessionsButtonA"> Other</button>
+    <div id="sessionsValue" class="values"> </div>
+    <button class="buttons" onclick="sessionsA(-1)" value ="0" id="sessionsButtonB"> Other</button>
+
+    <button id="setAlarm" class="buttons" onclick="watcher()">Set Alarm</button>
+</div>
+
+
+<audio controls>
+    <source src="images/car-alarm-sound-effect.mp3" type="audio/mp3">
+
+  Your browser does not support the audio element.
+  </audio>
+
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

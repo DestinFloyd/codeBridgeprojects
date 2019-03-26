@@ -1,0 +1,32 @@
+
+.outline{
+    border: solid black;
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+    margin: 0 auto;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    }
+    .rows{
+    border: solid black;
+    display: flex;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+    .gridspots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid black;
+        display: flex;
+        width: 25%;
+        height: 95%;
+        margin: 0 auto;
+        text-decoration: underline;
+        text-align: center;  
+    }
+    

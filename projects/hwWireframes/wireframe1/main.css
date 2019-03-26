@@ -1,0 +1,84 @@
+.container{
+    border: solid 10px black;
+    display: flex; 
+    height: 98vh;
+    width: 98vw;
+    flex-flow: column;
+    box-flex: nowrap;
+  }
+.topper{
+  margin: 0 auto;
+  display: flex;
+    border: solid black;
+    margin: 10px;
+    display: flex;
+    height: 25vh; 
+justify-content: center;
+align-items: center;
+font-size: 8em;
+  }
+.container2{
+  
+  margin: 0 auto;
+  text-align: center;
+  border: solid black;
+  margin: 10px;
+  display: flex;
+  height: 75vh; 
+}
+.container2{
+border: solid black;
+display: flex;
+flex-flow: row;
+
+}
+.navB{
+border: solid black;
+display: flex;
+align-content: space-between;
+justify-content: space-between;
+}
+.mainB{
+  display: flex;
+border: solid black;
+display: flex;
+width: 33.3%;
+flex-direction: column;
+justify-content: space-between;
+}
+.navB{ 
+display: flex;
+flex-flow: row;
+width:33.3%;
+
+}
+.actualN{
+  display: flex;
+  border: solid gray;
+flex-flow: row;
+width: 100%;
+align-content: space-between;
+justify-content: space-between;
+}
+.mainC{
+  display: flex;
+  flex-flow: row;
+  width:33.3%;
+   
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.art{
+margin: 2%;
+padding: 10%;
+display: flex;
+height: 20%;
+width: 20%;
+background-color: slategray;
+justify-content: center;
+align-self: center;
+}
+

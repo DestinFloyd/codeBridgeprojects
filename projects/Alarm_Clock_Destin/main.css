@@ -1,0 +1,34 @@
+.setIt{
+    background-image: url("images/stars.gif");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.topper{
+height: 30vh;
+width: 30vw;
+background-image: url("images/black_square.jpeg");
+color: gray;
+font-size: 2em;
+overflow: auto;
+align-self: flex-start;
+
+}
+.buttons{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 20%;
+    background-color: lightblue;
+    overflow: auto;
+    
+}
+.values{
+    color: white;
+    display: flex;
+    margin: 3vh;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- so for layout purposes we made a container to size the page
+then layouts, then boxes then box# a,b,c as needed and the buttons will be in that 
+we will have 5 x 5 x 5 x 3 for the inputs and numbers a box to right screen for equals 
+box at top screen for display-->
+
+
+<!-- for convience and consientcu were naming number (number)B 
+and math functions the first three letters and B (xxx)B 
+**** expection average is avg and clear is clear due to instincts**-->
+
+<div class="container">
+    <form name="math">
+<div class="layout1">
+<div class="box1">
+    
+    <div class="onea">
+<!-- in an input if you put disabled people can not type in the box -->
+            
+<input type="text" name="" id="display" value= " ">
+
+
+    </div>
+</div><!-- end of box 1 -->
+</div><!-- end of layout 1 -->
+<div class="layout2">
+<div class="box2">
+    <div class="twoa">
+            <input type="button" value="0" class="button" id="zeroB" onclick="math.display.value += '0'">
+            <input type="button" value="1" class="button" id="oneB" onclick="math.display.value += '1'">
+            <input type="button" value="2" class="button" id="twoB" onclick="math.display.value += '2'">
+            <input type="button" value="3" class="button" id="threeB" onclick="math.display.value += '3'">
+            <input type="button" value="4" class="button" id="fourB" onclick=" math.display.value += '4'">
+    </div>
+    <div class="twob">
+            <input type="button" value="5" class="button" id="fiveB" onclick="math.display.value += '5'">
+            <input type="button" value="6" class="button" id="sixB" onclick=" math.display.value += '6' ">
+            <input type="button" value="7" class="button" id="sevenB" onclick=" math.display.value += '7' ">
+            <input type="button" value="8" class="button" id="eightB" onclick="math.display.value += '8' ">
+            <input type="button" value="9" class="button" id="nineB" onclick="math.display.value += '9' ">
+    </div>
+    <div class="twoc">
+            <input type="button" value="+" class="button" id="addB" onclick="math.display.value += ' + '">
+            <input type="button" value="-" class="button" id="subB" onclick="math.display.value += ' - '">
+            <input type="button" value="x" class="button" id="mulB" onclick="math.display.value += ' * '">
+            <input type="button" value="/" class="button" id="divB" onclick="math.display.value += ' / '">
+            <input type="button" value="." class="button" id="decB" onclick="math.display.value += ' . '">
+    </div>
+    <div class="twod">
+            <input type="button" value="Exponet" class="button" id="avgB" onclick="a1() ">
+            
+            <input type="button" value=" "class="button" id="expB" onclick="">
+            
+            <input type="button" value="clear" class="button" id="clearB" onclick="math.display.value = '0' ">
+    </div>
+</div><!-- end of box 2 -->
+<div class="box3">
+    <div class="threea">
+<!-- math.display.value = eval(math.display.value) -->
+        <input type="button" value="=" class="button" id="equB" onclick="math.display.value = eval(math.display.value)">
+
+
+
+
+    </div>
+</div><!-- end of box 3 -->
+</div><!-- end of layout 2 -->
+</form> <!-- end of form -->
+</div> <!-- end of container -->
+
+
+<script src="app.js"></script>
+</body>
+</html>

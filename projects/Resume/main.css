@@ -1,0 +1,70 @@
+#container{
+    font-family: 'Baloo Bhaijaan', cursive;
+    text-align: center;
+    width: vw100;
+    height: vh100;
+    background-image: url(./images/grey.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: .5px .5px white;
+    font-size: 1rem;
+}
+#section1:hover{
+    font-size: x-large;
+    text-decoration: underline;
+    color: darkred;
+    background-color:  rgba(128, 128, 128, 0.516);
+    /* padding: 35px; */
+    
+}
+.sectionHeader{
+    font-weight: bold; 
+    font-size: larger;
+    text-align: center;
+    
+
+}
+h1{
+    text-align: center;
+    font-size: 5em
+    
+}
+.edu{
+    text-align: center;
+  
+    
+}
+.date{
+    text-align: center;
+}
+.job{
+    text-decoration: underline
+}
+ul{
+    list-style-type: none;
+}
+#section2:hover{
+    font-size: x-large;
+    color: darkred;
+    background-color:  rgba(128, 128, 128, 0.516);
+}
+#section3:hover{
+    font-size: x-large;
+    color: darkred; 
+    background-color:  rgba(128, 128, 128, 0.516);
+    
+}
+#section4:hover{
+    font-size: x-large;
+    color: darkred;
+    background-color:  rgba(128, 128, 128, 0.516);
+    
+}
+#section5:hover{
+    font-size: x-large;
+    color:darkred;
+    background-color:  rgba(128, 128, 128, 0.516);
+    
+    
+}
